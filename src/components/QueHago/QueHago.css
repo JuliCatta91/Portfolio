@@ -1,0 +1,49 @@
+.flecha{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+
+}
+.divLoQueHago{
+    display: flex;
+    justify-content: space-evenly;
+}
+.iconos{
+    width: 30%;
+}
+.pLoQueHago{
+    width: 70%;
+}
+
+@media (min-width: 671px) {
+    .LoQueHago{
+    padding: 4rem 8rem;
+    background-color: var(--colorGris);
+    }
+    .LoQueHago h2{
+        display: flex;
+        align-items: center;
+        justify-content: start;
+    }
+}
+
+@media (max-width: 670px) {
+    .flechaFlecha{
+        display: none;
+    }
+    .pLoQueHago{
+        width: 90%;
+        text-align: justify;
+    }
+
+}
+@media (max-width: 669px) {
+    .divLoQueHago{
+        flex-direction: column;
+        align-items: center;
+    }
+    .iconos{
+        width: 100%;
+        text-align: center;
+    }
+}

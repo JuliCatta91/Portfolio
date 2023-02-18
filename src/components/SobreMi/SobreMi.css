@@ -1,0 +1,49 @@
+.sectionClass{
+    padding: 4rem 0;
+}
+.sobreMi{
+    display: flex;
+    justify-content: space-around;
+    align-content: center;
+    margin-top: 10rem;
+}
+.textoCentro{ /*texto de soy un entusiasta*/
+    /* width: 70%; */
+    text-align: center;
+}
+.sobreMi h3{
+    color: var(--celeste);
+    width: 30%;
+    margin: 0rem;
+}
+.sobreMi p{
+    width: 40%;
+    text-align: start;
+    margin: 0rem;
+    /* margin-left: 5%; */
+}
+@media (min-width: 751px) {
+    .sectionClass{
+        padding: 4rem 8rem;
+    }
+}
+
+
+@media (max-width: 750px) {
+    .textoCentro{
+        text-align: justify;
+        margin-bottom: 0rem;
+    } 
+    .sobreMi{
+        flex-direction: column;
+        align-items: center;
+    }
+    .sobreMi h3{
+        width: 100%;
+        margin-bottom: 2rem;
+    }
+    .sobreMi p{
+        width: 90%;
+        text-align: justify;
+    }
+}

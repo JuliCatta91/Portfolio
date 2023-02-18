@@ -1,0 +1,43 @@
+.portfolioSec{
+    background-color: var(--colorGris);
+    display: flex;
+    flex-direction: column;
+    align-items: space-around;
+}
+.flechaX{
+    display: flex;
+    justify-content: space-around
+}
+.galeria{
+    display: grid;
+    grid-template-columns: repeat(3, 300px);
+    gap: 1rem;
+    justify-content: center;
+    align-items: start;
+}
+
+.imgGaleria{   
+    width: 100%; 
+    height: 420px;
+    object-fit: cover;
+}
+.imgAcomodar{
+    height: 500px;
+}
+
+@media (max-width: 950px ) {
+    .galeria{
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        max-width: auto;
+        height: auto;
+    }
+}
+@media (max-width: 650px ) {
+    .galeria{
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        max-width: 800px;
+        height: auto;
+    }
+}

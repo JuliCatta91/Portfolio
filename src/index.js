@@ -2,16 +2,37 @@ import React from 'react';
 import ReactDOM from 'react-dom/client';
 import './index.css';
 import App from './App';
-import reportWebVitals from './reportWebVitals';
+import { Navbar } from './components/Navbar/Navbar';
+import { SobreMi } from './components/SobreMi/SobreMi';
+import { QueHago } from './components/QueHago/QueHago';
+import { ImgSola } from './components/ImgSola/ImgSola';
+import { Experiencia } from './components/Experiencia/Experiencia';
+import { Portfolio } from './components/Portfolio/Portfolio';
+// import { Form } from './components/Form/Form';
+import { PruebaForm } from './components/PruebaForm/PruebaForm';
+
+
+
+
+
+
+
+
+
+
+
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
     <App />
+    <Navbar />
+    <SobreMi />
+    <QueHago />
+    <ImgSola />
+    <Experiencia />
+    <Portfolio />
+    {/* <Form /> */}
+    <PruebaForm />
   </React.StrictMode>
 );
-
-// If you want to start measuring performance in your app, pass a function
-// to log results (for example: reportWebVitals(console.log))
-// or send to an analytics endpoint. Learn more: https://bit.ly/CRA-vitals
-reportWebVitals();

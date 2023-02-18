@@ -1,0 +1,36 @@
+.footer{
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+}
+.formulario{
+    display: flex;
+    flex-direction: column;
+    width: 90%;
+}
+.claseFieldset{
+    display: flex;
+    justify-content: center;   
+}
+.sectionFooter h2{
+    text-align: center;
+}
+.redesSociales{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    cursor: pointer;
+    width: 100%;
+}
+textarea{
+    resize: none;
+}
+
+
+@media (max-width: 550px) {
+     .redesSociales{
+        flex-direction: column;
+    }
+}
